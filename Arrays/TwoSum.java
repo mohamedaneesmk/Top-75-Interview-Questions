@@ -1,3 +1,5 @@
+// Problem: Find two numbers in the array that add up to a specific target
+
 package Arrays;
 
 import java.util.Arrays;
