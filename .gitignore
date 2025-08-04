@@ -1,0 +1,21 @@
+# Ignore all class files
+*.class
+
+# Ignore logs
+*.log
+
+# Ignore compiled JAR files
+*.jar
+
+# Ignore IDE-specific files (for example, IntelliJ or Eclipse)
+.idea/
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+.settings/
+
+# Ignore output directory (like bin or out)
+bin/
+out/
