@@ -13,12 +13,13 @@ public class MaxSubarraySum {
         int maxSum = nums[0];  // Start with first element
         int currentSum = nums[0];  // Start with first element
 
-        for (int i = 1; i < nums.length; i++) {
+        for (int i = 1; i < nums.length; i++) { 
             // Either extend the current subarray or start a new one
             currentSum = Math.max(nums[i], currentSum + nums[i]);
-            maxSum = Math.max(maxSum, currentSum);  // Update maxSum if needed
+            maxSum = Math.max(maxSum, currentSum);  // Update maxSum if needed 
         }
 
         return maxSum;
     }
 }
+
